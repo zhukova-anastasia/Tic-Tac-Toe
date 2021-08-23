@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+body {
+    background-color: #f5f5dc;
+}
+
+.background {
+    background-color: #f5f5dc;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.display {
+    font-size: 25px;
+    /* margin-top: 1em;
+    margin-bottom: 1em; */
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 90px;
+    min-height: 90px;
+    font-size: 2rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.playerO {
+    color: rgb(204, 10, 10);
+}
+
+.playerX {
+    color: dodgerblue;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem
+}
+
+#reset {
+    background-color: #f5f5dc;
+    text-decoration: underline;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 20px;
+}
